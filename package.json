@@ -1,0 +1,26 @@
+{
+  "name": "learn-elm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gn-t-k/learn-elm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gn-t-k/learn-elm/issues"
+  },
+  "homepage": "https://github.com/gn-t-k/learn-elm#readme",
+  "dependencies": {
+    "elm": "^0.19.1-5",
+    "elm-format": "^0.8.5",
+    "elm-review": "^2.6.1",
+    "elm-test": "^0.19.1-revision7"
+  }
+}
