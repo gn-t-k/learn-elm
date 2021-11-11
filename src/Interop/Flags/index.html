@@ -1,0 +1,17 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Main</title>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div id="myapp"></div>
+  <script>
+    console.log(Elm)
+    var app = Elm.Interop.Flags.Main.init({
+      node: document.getElementById('myapp'),
+      flags: Date.now()
+    })
+  </script>
+</body>
+</html>
